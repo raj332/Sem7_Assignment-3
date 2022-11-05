@@ -1,0 +1,9 @@
+<p>fourth works!</p>
+<select #id (change)="displayInput(id.value)">
+    <option value="textbox">textbox</option>
+    <option value="textarea">textarea</option>
+</select>
+<div >
+    <input *ngIf="isTextBox" type="text">
+    <textarea *ngIf="!isTextBox"></textarea>
+</div>

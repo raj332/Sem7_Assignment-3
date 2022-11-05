@@ -1,0 +1,6 @@
+<h1 class="m-3 bold">Products </h1>
+<div class="row">
+    <div class="card .col-12 m-3" style="width: 25rem;" *ngFor="let item of products ">
+        <app-product-item [item]="item" (productToDelete)="handleDelete($event)" ></app-product-item>
+    </div>
+</div>
