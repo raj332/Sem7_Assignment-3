@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first.component.css']
 })
 export class FirstComponent implements OnInit {
-  name :string ="jaimin";
-   contactNumber: number = 8795632356;
-   birthdate : Date =new Date ('12/18/2001');
+  name :string ="raj";
+   contactNumber: number = 9478778787;
+   birthdate : Date =new Date ('03/03/2002');
   constructor() { }
 
   ngOnInit(): void {
