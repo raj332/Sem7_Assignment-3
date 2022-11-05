@@ -1,4 +1,4 @@
-<p>form</p>
+<p>Student form</p>
 
 <form  (ngSubmit)="handleSubmit()"> 
     Name
@@ -8,6 +8,7 @@
     Email
     <input [(ngModel)]="email" name="email" type="email"><br><br>
     Birthdate
+    <input [(ngModel)]="birthdate" name="birthdate" type="date"><br><br>
     <button type="submit">Submit</button>
 </form>
 
@@ -15,5 +16,6 @@
    Name : {{name}}<br>
    ContactNo : {{contactno}}<br>
    Email :{{email}}<br>
+   Birthdate : {{birthday}}
 </div>
 
