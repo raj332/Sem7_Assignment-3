@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SecondComponent implements OnInit {
 
   constructor() { }
-  friends :string[]=['jaimin','raj','vishal','mitesh'];
+  friends :string[]=['raj','jaimin','darshit','rahul'];
   
   ngOnInit(): void {
   }
