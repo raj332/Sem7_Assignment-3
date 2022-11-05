@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./third.component.css']
 })
 export class ThirdComponent implements OnInit {
-  friends :string[]=['bmw','audi','marcedish','ferrie'];
+  friends :string[]=['raj','jaimin','darshit','rahul'];
   constructor() { }
  
   ngOnInit(): void {
